@@ -1,0 +1,68 @@
+/**
+ * 素物集 · SUWU 设计令牌与 uni-app 常用样式变量
+ */
+
+/* 品牌主题色（现代极简精品生活） */
+$color-bg-page: #F7F5F0;
+$color-bg-card: #FFFFFF;
+$color-bg-muted: #EFECE5;
+$color-text-primary: #1F1E1C;
+$color-text-secondary: #68645C;
+$color-text-muted: #9A958B;
+$color-accent: #B66A49;
+$color-accent-soft: #F4E8E1;
+$color-border: #EAE6DE;
+
+/* 圆角与间距 */
+$radius-sm: 12rpx;
+$radius-md: 20rpx;
+$radius-lg: 28rpx;
+
+/* uni-app 内置兼容变量 */
+$uni-color-primary: #B66A49;
+$uni-color-success: #4cd964;
+$uni-color-warning: #f0ad4e;
+$uni-color-error: #dd524d;
+
+$uni-text-color: #1F1E1C;
+$uni-text-color-inverse: #FFFFFF;
+$uni-text-color-grey: #9A958B;
+$uni-text-color-placeholder: #9A958B;
+$uni-text-color-disable: #C8C4BC;
+
+$uni-bg-color: #FFFFFF;
+$uni-bg-color-grey: #F7F5F0;
+$uni-bg-color-hover: #EFECE5;
+$uni-bg-color-mask: rgba(31, 30, 28, 0.45);
+
+$uni-border-color: #EAE6DE;
+
+$uni-font-size-sm: 24rpx;
+$uni-font-size-base: 28rpx;
+$uni-font-size-lg: 32rpx;
+
+$uni-img-size-sm: 40rpx;
+$uni-img-size-base: 52rpx;
+$uni-img-size-lg: 80rpx;
+
+$uni-border-radius-sm: 12rpx;
+$uni-border-radius-base: 20rpx;
+$uni-border-radius-lg: 28rpx;
+$uni-border-radius-circle: 50%;
+
+$uni-spacing-row-sm: 12rpx;
+$uni-spacing-row-base: 24rpx;
+$uni-spacing-row-lg: 32rpx;
+
+$uni-spacing-col-sm: 10rpx;
+$uni-spacing-col-base: 20rpx;
+$uni-spacing-col-lg: 28rpx;
+
+$uni-opacity-disabled: 0.35;
+
+$uni-color-title: #1F1E1C;
+$uni-font-size-title: 40rpx;
+$uni-color-subtitle: #68645C;
+$uni-font-size-subtitle: 32rpx;
+$uni-color-paragraph: #68645C;
+$uni-font-size-paragraph: 28rpx;

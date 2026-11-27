@@ -1,0 +1,18 @@
+{
+  "name": "nectar-liminal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:miniapp": "pnpm --filter @nectar/miniapp dev:mp-weixin",
+    "build:miniapp": "pnpm --filter @nectar/miniapp build:mp-weixin",
+    "dev:api": "pnpm --filter @nectar/fc-api dev",
+    "build:api": "pnpm --filter @nectar/fc-api build",
+    "dev:admin": "pnpm --filter @nectar/admin dev",
+    "build:admin": "pnpm --filter @nectar/admin build",
+    "build:wx-proxy": "pnpm --filter @nectar/wx-proxy build",
+    "build": "pnpm --filter @nectar/fc-api build && pnpm --filter @nectar/wx-proxy build && pnpm --filter @nectar/admin build && pnpm --filter @nectar/miniapp build:mp-weixin",
+    "type-check": "pnpm -r run type-check",
+    "infra:preview": "pnpm --filter @nectar/infra preview",
+    "infra:up": "pnpm --filter @nectar/infra up"
+  }
+}

@@ -1,0 +1,22 @@
+# 复制后可直接使用 `pulumi config set` 初始化 stack，或使用：
+# pulumi stack init dev
+# pulumi config set alicloud:region cn-hangzhou
+# pulumi config set --secret alicloud:accessKey <YOUR_ALIBABA_CLOUD_AK>
+# pulumi config set --secret alicloud:secretKey <YOUR_ALIBABA_CLOUD_SK>
+# pulumi config set --secret cloudflare:apiToken <YOUR_CLOUDFLARE_API_TOKEN>
+# pulumi config set cloudflareAccountId <YOUR_CLOUDFLARE_ACCOUNT_ID>
+# pulumi config set wxEnvId <YOUR_WECHAT_CLOUD_ENV_ID>
+# pulumi config set --secret wxPrivateKey "$(cat /path/to/private.wxd4fffd6f357a8e76.key)"
+
+config:
+  alicloud:region: cn-hangzhou
+  nectar-liminal-infra:otsInstanceName: nectar-liminal
+  nectar-liminal-infra:otsInstanceType: Capacity
+  nectar-liminal-infra:fcFunctionName: nectar-liminal-api
+  nectar-liminal-infra:fcRuntime: nodejs20
+  nectar-liminal-infra:wxAppId: wxd4fffd6f357a8e76
+  nectar-liminal-infra:wxFunctionName: apiProxy
+  nectar-liminal-infra:cloudflarePagesProjectName: nectar-liminal-admin
+  nectar-liminal-infra:enableAliyun: "true"
+  nectar-liminal-infra:enableWechat: "true"
+  nectar-liminal-infra:enableCloudflare: "true"

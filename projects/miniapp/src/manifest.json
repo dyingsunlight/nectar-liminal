@@ -1,0 +1,28 @@
+{
+  "name": "素物集",
+  "appid": "wxd4fffd6f357a8e76",
+  "description": "精品生活与家居好物微信小程序（接入微信云函数转发与阿里云 FC 后端）",
+  "versionName": "0.1.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "wxd4fffd6f357a8e76",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "postcss": true,
+      "minified": true
+    },
+    "usingComponents": true
+  },
+  "h5": {
+    "title": "素物集 · 精品生活商城",
+    "router": {
+      "mode": "hash"
+    }
+  },
+  "uniStatistics": {
+    "enable": false
+  },
+  "vueVersion": "3"
+}

@@ -1,0 +1,6 @@
+name: nectar-liminal-infra
+runtime:
+  name: nodejs
+  options:
+    typescript: true
+description: Nectar Liminal full-stack IaC (Aliyun FC 3.0 + TableStore + WeChat Cloud Function Proxy + Cloudflare Pages Admin)
